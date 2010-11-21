@@ -1,6 +1,6 @@
 class Piece
   include Mongoid::Document
-  #include Paperclip
+  include Paperclip
 
   
   field :name
