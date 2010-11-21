@@ -48,6 +48,9 @@ GEM
       mongo (~> 1.1)
       tzinfo (~> 0.3.22)
       will_paginate (~> 3.0.pre)
+    paperclip (2.3.5)
+      activerecord
+      activesupport
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.13)
@@ -81,5 +84,6 @@ PLATFORMS
 DEPENDENCIES
   bson_ext (= 1.1.2)
   mongoid (= 2.0.0.beta.20)
+  paperclip
   rails (= 3.0.3)
   sqlite3-ruby
