@@ -13,6 +13,7 @@ capybara-*.html
 /spec/tmp/*
 **.orig
 config/*.yml
+config/database.yml
 rerun.txt
 .loadpath
 .project
