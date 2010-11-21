@@ -33,4 +33,4 @@ gem "bson_ext", "1.1.2"
 gem "paperclip", "2.3.5" #doesn't seem to work. the call below is to a modified version 2.3.3
 #gem "paperclip", :git => "git://github.com/meskyanichi/paperclip.git"
 #gem 'paperclip', :git => 'git://github.com/lmumar/paperclip.git', :branch => 'rails3'
-gem "aws-s3"
+gem "aws-s3", :require => 'aws/s3'
